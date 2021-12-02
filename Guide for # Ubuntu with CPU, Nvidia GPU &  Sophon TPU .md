@@ -72,17 +72,17 @@ $ cd bmnnsdk2-bm1684_v2.6.0
 $ sudo ./docker_run_bmnnsdk.sh
 
 *** INSIDE Docker Now! ***
-#python3 -m pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
-#cd /workspace/scripts/
-#./install_lib.sh nntc
-#source envsetup_pcie.sh
-#cd ..
-#cd lib/ffmpeg/x86 && export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH 
-#cd ../../../
-#cd lib/decode/x86 && export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH
-#cd ../../../
-#cd lib/sail/python3/pcie/py35 (* depends on your python version *)
-#pip3 install sophon-2.6.0-py3-none-any.whl
+#### # python3 -m pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
+#### # cd /workspace/scripts/
+#### # ./install_lib.sh nntc
+#### # source envsetup_pcie.sh
+#### # cd ..
+#### # cd lib/ffmpeg/x86 && export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH 
+#### # cd ../../../
+#### # cd lib/decode/x86 && export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH
+#### # cd ../../../
+#### # cd lib/sail/python3/pcie/py35 (* depends on your python version *)
+#### # pip3 install sophon-2.6.0-py3-none-any.whl
 
 ### x # cd ../examples/SSD_object/cpp_cv_bmcv_bmrt/
 
@@ -90,8 +90,8 @@ $ sudo ./docker_run_bmnnsdk.sh
 ## Step 2. Download miner software and run [Run in Docker]
 
 ### Step 2.1 download 
- git clone https://github.com/Sp4c3-blockchain/AIpower-Proving-Program.git
- cd sp4ubuntu
+ #### git clone https://github.com/Sp4c3-blockchain/AIpower-Proving-Program.git
+ #### cd sp4ubuntu
  
 ### Step 2.2 Install requirements
 # pip3 install -r requirements.txt 
