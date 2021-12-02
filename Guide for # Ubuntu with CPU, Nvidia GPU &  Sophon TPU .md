@@ -41,7 +41,7 @@ $ python3 run.py
 
 
 
-# AI Machine(E.g.Ubuntu with Sophon TPU)
+# Ubuntu with AI Machine Sophon TPU (E.g. Sophon TPU)
 ## Step 1. Configure AI Enviromnent
 ### step.1 Install docker 
 How to install? Google it or follow the instructions:
@@ -91,7 +91,6 @@ $ sudo ./docker_run_bmnnsdk.sh
 
 ### Step 2.1 download 
  git clone https://github.com/Sp4c3-blockchain/AIpower-Proving-Program.git
-
  cd sp4ubuntu
  
 ### Step 2.2 Install requirements
