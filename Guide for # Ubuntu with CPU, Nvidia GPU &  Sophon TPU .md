@@ -30,9 +30,11 @@ AND select the right CUDA version please.
 ## Step.2 Download miner software and run
 
 ### Step 2.1 download 
- git clone https://github.com/Sp4c3-blockchain/AIpower-Proving-Program.git
+$ cd [your created folder]
+$ wget https://sp4.s3.ap-east-1.amazonaws.com/install/sp4ubuntu.tar.gz
+$ tar -zxvf sp4ubuntu.tar.gz
+$ cd sp4ubuntu
 
- cd sp4ubuntu
  
 ### Step 2.2 Install requirements
 $ pip3 install -r requirements.txt 
@@ -90,8 +92,11 @@ $ sudo ./docker_run_bmnnsdk.sh
 ## Step 2. Download miner software and run [Run in Docker]
 
 ### Step 2.1 download 
- #### git clone https://github.com/Sp4c3-blockchain/AIpower-Proving-Program.git
- #### cd sp4ubuntu
+# cd [your created folder]
+# wget https://sp4.s3.ap-east-1.amazonaws.com/install/sp4ubuntu.tar.gz
+# tar -zxvf sp4ubuntu.tar.gz
+# cd sp4ubuntu
+
  
 ### Step 2.2 Install requirements
 # pip3 install -r requirements.txt 
