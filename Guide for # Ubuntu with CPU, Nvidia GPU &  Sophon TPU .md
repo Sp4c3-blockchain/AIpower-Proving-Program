@@ -31,7 +31,7 @@ AND select the right CUDA version please.
 
 ### Step 2.1 download 
 $ cd [your created folder]
-$ wget https://sp4.s3.ap-east-1.amazonaws.com/install/sp4ubuntu.tar.gz
+$ wget https://sp4.s3.ap-east-1.amazonaws.com/install/sp4ubuntu.tar-1.0.1.gz
 $ tar -zxvf sp4ubuntu.tar.gz
 $ cd sp4ubuntu
 
@@ -93,7 +93,7 @@ $ sudo ./docker_run_bmnnsdk.sh
 
 ### Step 2.1 download 
 # cd [your created folder]
-# wget https://sp4.s3.ap-east-1.amazonaws.com/install/sp4ubuntu.tar.gz
+# wget https://sp4.s3.ap-east-1.amazonaws.com/install/sp4ubuntu.tar-1.0.1.gz
 # tar -zxvf sp4ubuntu.tar.gz
 # cd sp4ubuntu
 
